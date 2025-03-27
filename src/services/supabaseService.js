@@ -1,4 +1,4 @@
-import supabase from "../config/supabaseClient.js";
+import { supabase } from "../config/supabaseClient.js";
 
 //document_api(document_id, adduser_id, tags, content, link, created_at)
     export const createDocument = async ({ adduser_id, content, link }) => {

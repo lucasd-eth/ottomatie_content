@@ -15,8 +15,7 @@ export default {
       { id: 'tags', label: 'Tags (cách nhau bởi dấu phẩy)', style: TextInputStyle.Short, required: true },
       { id: 'link', label: 'Link nguồn (tuỳ chọn)', style: TextInputStyle.Short, required: false },
       { id: 'content', label: 'Nội dung bài viết', style: TextInputStyle.Paragraph, required: true },
-      { id: 'adduser_id', label: 'Người thêm', style: TextInputStyle.Short, required: true },
-      { id: 'image_link', label: 'Dán link ảnh vào đây', style: TextInputStyle.Short, required: true }
+      { id: 'imagelink', label: 'Dán link ảnh vào đây', style: TextInputStyle.Paragraph, required: false }
     ];
 
     const rows = inputs.map(input => new ActionRowBuilder().addComponents(
